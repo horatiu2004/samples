@@ -13250,23 +13250,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\horatiu.prica\\.nuget\\packages\\": {},
+    "C:\\Users\\Horatiu\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\horatiu.prica\\Documents\\GitHub\\samples\\TestWebApplication\\TestWebApplication\\TestWebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\Horatiu\\Documents\\GitHub\\samples\\TestWebApplication\\TestWebApplication\\TestWebApplication.csproj",
       "projectName": "TestWebApplication",
-      "projectPath": "C:\\Users\\horatiu.prica\\Documents\\GitHub\\samples\\TestWebApplication\\TestWebApplication\\TestWebApplication.csproj",
-      "packagesPath": "C:\\Users\\horatiu.prica\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\horatiu.prica\\Documents\\GitHub\\samples\\TestWebApplication\\TestWebApplication\\obj\\",
+      "projectPath": "C:\\Users\\Horatiu\\Documents\\GitHub\\samples\\TestWebApplication\\TestWebApplication\\TestWebApplication.csproj",
+      "packagesPath": "C:\\Users\\Horatiu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Horatiu\\Documents\\GitHub\\samples\\TestWebApplication\\TestWebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\horatiu.prica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Horatiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
