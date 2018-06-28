@@ -1,0 +1,26 @@
+# Binary
+*.cab
+*.dll
+*.exe
+*.jpeg
+*.lib
+*.msi
+*.msm
+*.msp
+
+# Visual Studio
+*.aps
+*.db
+*.ncb
+*.obj
+*.opendb
+*.opensdf
+*.pch
+*.pdb
+*.sdf
+*.snk
+*.suo
+*.tlb
+*.tlh
+*.tli
+*.user
