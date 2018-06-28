@@ -13256,11 +13256,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\horatiu.prica\\Documents\\Visual Studio 2017\\Projects\\TestWebApplication\\TestWebApplication\\TestWebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\horatiu.prica\\Documents\\GitHub\\samples\\TestWebApplication\\TestWebApplication\\TestWebApplication.csproj",
       "projectName": "TestWebApplication",
-      "projectPath": "C:\\Users\\horatiu.prica\\Documents\\Visual Studio 2017\\Projects\\TestWebApplication\\TestWebApplication\\TestWebApplication.csproj",
+      "projectPath": "C:\\Users\\horatiu.prica\\Documents\\GitHub\\samples\\TestWebApplication\\TestWebApplication\\TestWebApplication.csproj",
       "packagesPath": "C:\\Users\\horatiu.prica\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\horatiu.prica\\Documents\\Visual Studio 2017\\Projects\\TestWebApplication\\TestWebApplication\\obj\\",
+      "outputPath": "C:\\Users\\horatiu.prica\\Documents\\GitHub\\samples\\TestWebApplication\\TestWebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
