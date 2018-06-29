@@ -1,5 +1,6 @@
 ﻿@model IEnumerable<TestWebApplication.Models.User>
 
+
 @{
     ViewData["Title"] = "Index";
 }
@@ -45,6 +46,8 @@
 }
     </tbody>
 </table>
-<p>
-    <a asp-action="Export">Export Data</a>
-</p>
+<div class="row">
+    <form action="" method="post">
+        <input type="submit" value="Export Data" formaction="ExportData" />
+    </form>
+</div>

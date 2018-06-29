@@ -9,17 +9,6 @@ C:\Users\horatiu.prica\Documents\Visual Studio 2017\Projects\TestWebApplication\
 C:\Users\horatiu.prica\Documents\Visual Studio 2017\Projects\TestWebApplication\TestWebApplication\bin\Debug\netcoreapp2.0\TestWebApplication.pdb
 C:\Users\horatiu.prica\Documents\Visual Studio 2017\Projects\TestWebApplication\TestWebApplication\obj\Debug\netcoreapp2.0\TestWebApplication.dll
 C:\Users\horatiu.prica\Documents\Visual Studio 2017\Projects\TestWebApplication\TestWebApplication\obj\Debug\netcoreapp2.0\TestWebApplication.pdb
-C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\bin\Debug\netcoreapp2.0\TestWebApplication.deps.json
-C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\bin\Debug\netcoreapp2.0\TestWebApplication.runtimeconfig.json
-C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\bin\Debug\netcoreapp2.0\TestWebApplication.runtimeconfig.dev.json
-C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\bin\Debug\netcoreapp2.0\TestWebApplication.dll
-C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\bin\Debug\netcoreapp2.0\TestWebApplication.pdb
-C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\obj\Debug\netcoreapp2.0\TestWebApplication.csprojAssemblyReference.cache
-C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\obj\Debug\netcoreapp2.0\TestWebApplication.csproj.CoreCompileInputs.cache
-C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\obj\Debug\netcoreapp2.0\TestWebApplication.AssemblyInfoInputs.cache
-C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\obj\Debug\netcoreapp2.0\TestWebApplication.AssemblyInfo.cs
-C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\obj\Debug\netcoreapp2.0\TestWebApplication.dll
-C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\obj\Debug\netcoreapp2.0\TestWebApplication.pdb
 C:\Users\Horatiu\Documents\GitHub\samples\TestWebApplication\TestWebApplication\bin\Debug\netcoreapp2.0\TestWebApplication.deps.json
 C:\Users\Horatiu\Documents\GitHub\samples\TestWebApplication\TestWebApplication\bin\Debug\netcoreapp2.0\TestWebApplication.runtimeconfig.json
 C:\Users\Horatiu\Documents\GitHub\samples\TestWebApplication\TestWebApplication\bin\Debug\netcoreapp2.0\TestWebApplication.runtimeconfig.dev.json
@@ -31,3 +20,14 @@ C:\Users\Horatiu\Documents\GitHub\samples\TestWebApplication\TestWebApplication\
 C:\Users\Horatiu\Documents\GitHub\samples\TestWebApplication\TestWebApplication\obj\Debug\netcoreapp2.0\TestWebApplication.AssemblyInfo.cs
 C:\Users\Horatiu\Documents\GitHub\samples\TestWebApplication\TestWebApplication\obj\Debug\netcoreapp2.0\TestWebApplication.dll
 C:\Users\Horatiu\Documents\GitHub\samples\TestWebApplication\TestWebApplication\obj\Debug\netcoreapp2.0\TestWebApplication.pdb
+C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\bin\Debug\netcoreapp2.0\TestWebApplication.deps.json
+C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\bin\Debug\netcoreapp2.0\TestWebApplication.runtimeconfig.json
+C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\bin\Debug\netcoreapp2.0\TestWebApplication.runtimeconfig.dev.json
+C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\bin\Debug\netcoreapp2.0\TestWebApplication.dll
+C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\bin\Debug\netcoreapp2.0\TestWebApplication.pdb
+C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\obj\Debug\netcoreapp2.0\TestWebApplication.csprojAssemblyReference.cache
+C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\obj\Debug\netcoreapp2.0\TestWebApplication.csproj.CoreCompileInputs.cache
+C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\obj\Debug\netcoreapp2.0\TestWebApplication.AssemblyInfoInputs.cache
+C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\obj\Debug\netcoreapp2.0\TestWebApplication.AssemblyInfo.cs
+C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\obj\Debug\netcoreapp2.0\TestWebApplication.dll
+C:\Users\horatiu.prica\Documents\GitHub\samples\TestWebApplication\TestWebApplication\obj\Debug\netcoreapp2.0\TestWebApplication.pdb
