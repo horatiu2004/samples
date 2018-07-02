@@ -1,0 +1,17 @@
+﻿@model IEnumerable<TestWebApplication.Models.User>
+
+@{
+    ViewData["Title"] = "Export";
+}
+
+@foreach (var item in Model)
+{
+
+    @Html.ActionLink("Users", "Export", item)
+}
+
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

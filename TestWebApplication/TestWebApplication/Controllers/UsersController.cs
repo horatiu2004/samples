@@ -65,10 +65,10 @@ namespace TestWebApplication.Controllers
         }
 
         //Export data
-        [HttpPost]
-        public void ExportData(User user)
+        public ActionResult Export([Bind("ID,UserName,Password,Type")] User user)
         {
-            
+            DataExporter.ExportToJson(user);
+            return View();
         }
 
         // GET: Users/Edit/5
