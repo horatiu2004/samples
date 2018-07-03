@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using TestWebApplication.DataAccess;
 using TestWebApplication.Models;
 
 namespace TestWebApplication.Controllers
@@ -68,10 +69,29 @@ namespace TestWebApplication.Controllers
         public ActionResult Export()
         {
             List<User> users = CreateUsersList();
-            DataExporter.ExportToJson(users);
-            DataExporter.ExportToXml(users);
+            //ExportType exportTypeUserInput = GetUserInput();
+            ISerializer serializer = GetSerializer(ExportType.Json);
+            serializer.Serialize(users, "D:\\Test\\Test.json");
 
             return RedirectToAction(nameof(Index));
+        }
+
+        private ExportType GetUserInput()
+        {
+            throw new NotImplementedException();
+        }
+
+        private ISerializer GetSerializer(ExportType aType)
+        {
+            switch(aType)
+            {
+                case ExportType.Json:
+                    return new JsonSerializer();
+                case ExportType.Xml:
+                    return new MyXmlSerializer();
+                default:
+                    throw new Exception("unknown export type");
+            }
         }
 
         private List<User> CreateUsersList()
