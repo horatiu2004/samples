@@ -22,9 +22,9 @@ namespace TestWebApplication
 
         public static void ExportToXml(List<User> users)
         {
-            XmlSerializer ser = new XmlSerializer(users.GetType());
+            XmlSerializer serializer = new XmlSerializer(users.GetType());
             TextWriter writer = new StreamWriter(path: "D:\\Test\\Test.xml");
-            ser.Serialize(writer, users);
+            serializer.Serialize(writer, users);
             writer.Close();
         }
     }
