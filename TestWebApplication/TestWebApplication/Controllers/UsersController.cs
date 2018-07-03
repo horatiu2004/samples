@@ -64,8 +64,15 @@ namespace TestWebApplication.Controllers
             return View(user);
         }
 
-        //Export data
+        //Export user data
         public void Export()
+        {
+            List<User> users = CreateUsersList();
+            DataExporter.ExportToJson(users);
+            DataExporter.ExportToXml(users);
+        }
+
+        private List<User> CreateUsersList()
         {
             List<User> users = new List<User>();
             foreach (var item in _context.User)
@@ -73,8 +80,7 @@ namespace TestWebApplication.Controllers
                 users.Add(item);
             }
 
-            DataExporter.ExportToJson(users);
-            DataExporter.ExportToXml(users);
+            return users;
         }
 
         // GET: Users/Edit/5
