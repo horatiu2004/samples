@@ -65,10 +65,16 @@ namespace TestWebApplication.Controllers
         }
 
         //Export data
-        public ActionResult Export([Bind("ID,UserName,Password,Type")] User user)
+        public void Export()
         {
-            DataExporter.ExportToJson(user);
-            return View();
+            List<User> users = new List<User>();
+            foreach (var item in _context.User)
+            {
+                users.Add(item);
+            }
+
+            DataExporter.ExportToJson(users);
+            DataExporter.ExportToXml(users);
         }
 
         // GET: Users/Edit/5
