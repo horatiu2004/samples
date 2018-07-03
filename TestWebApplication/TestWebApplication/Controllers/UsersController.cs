@@ -65,11 +65,13 @@ namespace TestWebApplication.Controllers
         }
 
         //Export user data
-        public void Export()
+        public ActionResult Export()
         {
             List<User> users = CreateUsersList();
             DataExporter.ExportToJson(users);
             DataExporter.ExportToXml(users);
+
+            return RedirectToAction(nameof(Index));
         }
 
         private List<User> CreateUsersList()
