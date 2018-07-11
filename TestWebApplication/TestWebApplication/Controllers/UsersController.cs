@@ -65,6 +65,22 @@ namespace TestWebApplication.Controllers
             return View(user);
         }
 
+        //Login user data
+        public async Task<IActionResult> Login([Bind("ID,UserName,Password,Type")] User user)
+        {
+            {
+                foreach (var item in _context.User)
+                {
+                   if(item.UserName == user.UserName && item.Password == item.Password)
+                    {
+                        return RedirectToAction(nameof(Index));
+                    }
+                }
+            }
+
+            return View("Account");
+        }
+
         //Export user data
         public ActionResult Export()
         {
