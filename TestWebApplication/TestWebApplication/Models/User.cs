@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
+
 namespace TestWebApplication.Models
 {
     public enum UserType
@@ -14,14 +15,6 @@ namespace TestWebApplication.Models
         PowerUser,
         [Display(Name = "Admin")]
         Admin
-    }
-
-    public enum ExportType
-    {
-        [Display(Name = "XML")]
-        Xml,
-        [Display(Name = "Json")]
-        Json
     }
 
     public class User

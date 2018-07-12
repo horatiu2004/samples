@@ -68,33 +68,38 @@ namespace TestWebApplication.Controllers
         //Login user data
         public async Task<IActionResult> Login([Bind("ID,UserName,Password,Type")] User user)
         {
-            {
                 foreach (var item in _context.User)
                 {
                    if(item.UserName == user.UserName && item.Password == item.Password)
                     {
                         return RedirectToAction(nameof(Index));
                     }
-                }
-            }
+                }      
 
             return View("Account");
         }
 
         //Export user data
-        public ActionResult Export()
+        public ActionResult Export([Bind("ExportType")] ExportType exportType)
         {
             List<User> users = CreateUsersList();
-            //ExportType exportTypeUserInput = GetUserInput();
-            ISerializer serializer = GetSerializer(ExportType.Json);
-            serializer.Serialize(users, "D:\\Test\\Test.json");
+            ISerializer serializer = GetSerializer(exportType);
+            serializer.Serialize(users, GetPath(exportType));
 
             return RedirectToAction(nameof(Index));
         }
 
-        private ExportType GetUserInput()
+        private string GetPath(ExportType exportType)
         {
-            throw new NotImplementedException();
+            switch (exportType)
+            {
+                case ExportType.Xml:
+                    return "D:\\Test\\Test.xml";
+                case ExportType.Json:
+                    return "D:\\Test\\Test.json";
+                default:
+                    throw new Exception("Unknown path");
+            }
         }
 
         private ISerializer GetSerializer(ExportType aType)
