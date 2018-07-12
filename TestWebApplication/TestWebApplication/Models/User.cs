@@ -16,6 +16,14 @@ namespace TestWebApplication.Models
         Admin
     }
 
+    public enum ExportType
+    {
+        [Display(Name = "XML")]
+        Xml,
+        [Display(Name = "Json")]
+        Json
+    }
+
     public class User
     {
         public int ID { get; set; }
